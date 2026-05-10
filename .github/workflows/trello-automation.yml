@@ -1,0 +1,35 @@
+name: Trello Automation
+
+on:
+  push:
+    branches:
+      - main
+      - dev
+  pull_request:
+    types: [opened, closed]
+
+jobs:
+  sync-trello:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Log commit on push
+        if: github.event_name == 'push'
+        run: |
+          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          echo "Commit: $COMMIT_MSG"
+      
+      - name: Log PR opened
+        if: github.event_name == 'pull_request' && github.event.action == 'opened'
+        run: echo "PR opened"
+      
+      - name: Log PR merged
+        if: github.event_name == 'pull_request' && github.event.pull_request.merged == true
+        run: echo "PR merged"
+      
+      - name: Fetch To Do cards
+        run: |
+          curl -X GET "https://api.trello.com/1/lists/${{ secrets.TRELLO_TODO_LIST_ID }}/cards?key=${{ secrets.TRELLO_API_KEY }}&token=${{ secrets.TRELLO_TOKEN }}"
