@@ -9,20 +9,18 @@ relational database, and visualizes the data through an interactive dashboard.
 **[Team 11]**
 
 ## Team Members
-- Tiffany Lina Turate - tiffany-lina
+- Tiffany Lina Turate - lina-tiffany
 - Admire Chagaresango - octaviusthe3rd
 - Lydivine Nshuti - nlydivine
 
 ## Architecture Diagram
-[Link will be added soon]
+[https://drive.google.com/file/d/1jXpKmj3E2HYtPRAqd0D4uXrv3F4ObXXv/view]
+
 
 ## Scrum Board
-[Link will be added soon]
+[https://trello.com/b/nh1maeFP/momo-etl-pipeline]
 
 ## Tech Stack
 - **Backend/ETL:** Python
 - **Database:** SQLite
 - **Frontend:** HTML, CSS, JavaScript
-
-## How to Run
-Instructions will be added as the project progresses.
