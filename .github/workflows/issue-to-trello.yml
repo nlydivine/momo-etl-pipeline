@@ -1,0 +1,28 @@
+name: Issue to Trello
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  create-trello-card:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Create Trello card from issue
+        run: |
+          ISSUE_TITLE="${{ github.event.issue.title }}"
+          ISSUE_BODY="${{ github.event.issue.body }}"
+          ISSUE_URL="${{ github.event.issue.html_url }}"
+          
+          CARD_NAME="$ISSUE_TITLE"
+          CARD_DESC="GitHub Issue: $ISSUE_URL\n\n$ISSUE_BODY"
+          
+          curl -X POST "https://api.trello.com/1/cards" \
+            -d "key=${{ secrets.TRELLO_API_KEY }}" \
+            -d "token=${{ secrets.TRELLO_TOKEN }}" \
+            -d "idList=${{ secrets.TRELLO_TODO_LIST_ID }}" \
+            -d "name=$CARD_NAME" \
+            -d "desc=$CARD_DESC"
+          
+          echo "Created Trello card: $CARD_NAME"
