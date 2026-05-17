@@ -12,7 +12,7 @@ CREATE TABLE transactions (
     transactions_id INT PRIMARY KEY AUTO_INCREMENT,
     amount DECIMAL (10,2) NOT NULL,
     transaction_date DATETIME NOT NULL,
-    transaction_status TEXT DEFAULT 'pending',
+    transaction_status TEXT,
     reference_code TEXT ,
     sms_raw_text TEXT
 );
@@ -30,14 +30,14 @@ CREATE TABLE transaction_parties (
     transaction_id INT NOT NULL,
     party_role TEXT,
     FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE RESTRICT,
-    FOREIGN KEY (transaction_id) REFERENCES transactions(transaction_id) ON DELETE RESTRICT
+    FOREIGN KEY (transaction_id) REFERENCES transactions(transactions_id) ON DELETE RESTRICT
 );
 
 CREATE TABLE system_logs (
     log_id INT PRIMARY KEY AUTO_INCREMENT,
-    transaction_id INT NOT NULL UNIQUE,
+    transaction_id INT NOT NULL,
     logged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     logged_level TEXT,
     log_message TEXT,
-    FOREIGN KEY (transaction_id) REFERENCES transactions(transaction_id) ON DELETE RESTRICT
+    FOREIGN KEY (transaction_id) REFERENCES transactions(transactions_id) ON DELETE RESTRICT
 );
