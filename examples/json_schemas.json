@@ -1,0 +1,83 @@
+{
+  "user": {
+    "user_id": 1,
+    "user_names": "Amina Uwase",
+    "phone_number": "+250781234567",
+    "user_email": "amina.uwase@gmail.com",
+    "created_at": "2024-01-15T08:30:00Z"
+  },
+
+  "transaction_category": {
+    "category_id": 3,
+    "category_name": "Incoming Money",
+    "category_desc": "Money received from another MoMo user or external sender."
+  },
+
+  "transaction": {
+    "transactions_id": 101,
+    "amount": 15000.00,
+    "transaction_date": "2024-03-22T14:45:00Z",
+    "transaction_status": "completed",
+    "reference_code": "REF20240322XYZ",
+    "sms_raw_text": "You have received 15,000 RWF from Amina Uwase. Your new balance is 42,300 RWF. Ref: REF20240322XYZ"
+  },
+
+  "transaction_party": {
+    "party_id": 55,
+    "user_id": 1,
+    "transaction_id": 101,
+    "party_role": "receiver"
+  },
+
+  "system_log": {
+    "log_id": 201,
+    "transaction_id": 101,
+    "logged_at": "2024-03-22T14:45:03Z",
+    "logged_level": "INFO",
+    "log_message": "Transaction REF20240322XYZ successfully parsed and stored."
+  },
+
+  "complete_transaction": {
+    "transactions_id": 101,
+    "amount": 15000.00,
+    "transaction_date": "2024-03-22T14:45:00Z",
+    "transaction_status": "completed",
+    "reference_code": "REF20240322XYZ",
+    "sms_raw_text": "You have received 15,000 RWF from Amina Uwase. Your new balance is 42,300 RWF. Ref: REF20240322XYZ",
+
+    "category": {
+      "category_id": 3,
+      "category_name": "Incoming Money",
+      "category_desc": "Money received from another MoMo user or external sender."
+    },
+
+    "parties": [
+      {
+        "party_role": "sender",
+        "user": {
+          "user_id": 1,
+          "user_names": "Amina Uwase",
+          "phone_number": "+250781234567",
+          "user_email": "amina.uwase@gmail.com"
+        }
+      },
+      {
+        "party_role": "receiver",
+        "user": {
+          "user_id": 2,
+          "user_names": "Jean Pierre Habimana",
+          "phone_number": "+250789876543",
+          "user_email": "jp.habimana@outlook.com"
+        }
+      }
+    ],
+
+    "system_log": {
+      "log_id": 201,
+      "logged_at": "2024-03-22T14:45:03Z",
+      "logged_level": "INFO",
+      "log_message": "Transaction REF20240322XYZ successfully parsed and stored."
+    }
+  }
+}
+
