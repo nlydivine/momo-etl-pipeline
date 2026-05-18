@@ -32,7 +32,13 @@ The full ERD is available in /docs/erd_diagram.png
 
 Database Schema
 The database consists of the following tables:
-TableDescriptionusersStores all MoMo users (senders and receivers)transactionsCore table storing all transaction records parsed from SMS datatransaction_categoriesClassifies transactions by type (e.g. Incoming Money, Payment, Withdrawal)transaction_partiesJunction table linking users to transactions with their role (sender/receiver)system_logsTracks the processing status of each transaction through the pipeline
+Table                                 Description
+
+users                                 Stores all MoMo users (senders and receivers)
+transactions                          Core table storing all transaction records parsed from SMS data
+transaction_categories                Classifies transactions by type (e.g. Incoming Money, Payment, Withdrawal)
+transaction_parties                   Junction table linking users to transactions with their role (sender/receiver)
+system_logs                            Tracks the processing status of each transaction through the pipeline
 
 Relationships
 
@@ -51,5 +57,6 @@ Sample data for testing
 
 JSON Data Models
 JSON representations of all database entities are located at /examples/json_schemas.json.
+
 These schemas show how the relational data is serialized for API responses, including a complete nested transaction object that combines transaction details, category, parties (with full user info), and system log into a single response object.
 
