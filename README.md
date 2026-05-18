@@ -31,14 +31,17 @@ Entity Relationship Diagram (ERD)
 The full ERD is available in /docs/erd_diagram.png
 
 Database Schema
-The database consists of the following tables:
-Table                                 Description
+The database consists of the following:
 
-users                                 Stores all MoMo users (senders and receivers)
-transactions                          Core table storing all transaction records parsed from SMS data
-transaction_categories                Classifies transactions by type (e.g. Incoming Money, Payment, Withdrawal)
-transaction_parties                   Junction table linking users to transactions with their role (sender/receiver)
-system_logs                            Tracks the processing status of each transaction through the pipeline
+users (Stores all MoMo users (senders and receivers))
+
+transactions (Core table storing all transaction records parsed from SMS data)
+
+transaction_categories (Classifies transactions by type (e.g. Incoming Money, Payment, Withdrawal))
+
+transaction_parties (Junction table linking users to transactions with their role (sender/receiver))
+
+system_logs (Tracks the processing status of each transaction through the pipeline)
 
 Relationships
 
