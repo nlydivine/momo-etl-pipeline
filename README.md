@@ -1,8 +1,12 @@
 MoMo ETL Pipeline
+
 Project Description
+
 A fullstack application that processes MTN Mobile Money (MoMo) SMS data in XML format, cleans and categorizes transactions, stores them in a relational database, and visualizes the data through an interactive dashboard.
+
 Team Name
 [Team 11]
+
 Team Members
 
 Tiffany Lina Turate - lina-tiffany
@@ -11,23 +15,25 @@ Lydivine Nshuti - nlydivine
 
 Architecture Diagram
 [https://drive.google.com/file/d/1jXpKmj3E2HYtPRAqd0D4uXrv3F4ObXXv/view]
+
 Scrum Board
 [https://trello.com/b/nh1maeFP/momo-etl-pipeline]
-Tech Stack
 
-Backend/ETL: Python
-Database: SQLite
-Frontend: HTML, CSS, JavaScript
 
 
 Database Design
+
 Overview
+
 The database is designed to store, query, and analyze MoMo SMS transaction data. It follows a relational model with five core tables that maintain data integrity through foreign key constraints.
+
 Entity Relationship Diagram (ERD)
 The full ERD is available in /docs/erd_diagram.png
+
 Database Schema
 The database consists of the following tables:
 TableDescriptionusersStores all MoMo users (senders and receivers)transactionsCore table storing all transaction records parsed from SMS datatransaction_categoriesClassifies transactions by type (e.g. Incoming Money, Payment, Withdrawal)transaction_partiesJunction table linking users to transactions with their role (sender/receiver)system_logsTracks the processing status of each transaction through the pipeline
+
 Relationships
 
 A user can be involved in many transactions (as sender or receiver)
