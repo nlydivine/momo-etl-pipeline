@@ -1,0 +1,366 @@
+[
+  {
+    "body": "you have received 2000 rwf from jane smith (*********013) on your mobile money account at 2024-05-10 16:30:51. message from sender: . your new balance:2000 rwf. financial transaction id: 76662021700.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 25000 rwf from samuel carter (*********013) on your mobile money account at 2024-05-14 20:57:36. message from sender: . your new balance:29060 rwf. financial transaction id: 43668074924.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 1400 rwf from linda green (*********704) on your mobile money account at 2024-05-19 01:49:09. message from sender: . your new balance:4590 rwf. financial transaction id: 45738348638.",
+    "type": "received"
+  },
+  {
+    "body": "you abebe chala chebudie (*********036) have via agent: agent sophia (250790777777), withdrawn 20000 rwf from your mobile money account: 36521838 at 2024-05-26 02:10:27 and you can now collect your money in cash. your new balance: 6400 rwf. fee paid: 350 rwf. message from agent: 1. financial transaction id: 14098463509.",
+    "type": "withdrawal"
+  },
+  {
+    "body": "you have received 200 rwf from linda green (*********691) on your mobile money account at 2024-05-29 14:00:51. message from sender: . your new balance:1600 rwf. financial transaction id: 90281203550.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 12000 rwf from alex doe (*********612) on your mobile money account at 2024-06-07 16:08:33. message from sender: . your new balance:17310 rwf. financial transaction id: 41002852845.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 5000 rwf from linda green (*********806) on your mobile money account at 2024-06-18 14:08:05. message from sender: . your new balance:14110 rwf. financial transaction id: 43960900475.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 3700 rwf from samuel carter (*********090) on your mobile money account at 2024-06-19 20:26:00. message from sender: . your new balance:7510 rwf. financial transaction id: 63115508240.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 1500 rwf from samuel carter (*********612) on your mobile money account at 2024-06-21 13:44:47. message from sender: . your new balance:4140 rwf. financial transaction id: 90311838363.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 1500 rwf from samuel carter (*********711) on your mobile money account at 2024-06-23 12:15:45. message from sender: . your new balance:15620 rwf. financial transaction id: 72288050689.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 1000 rwf from samuel carter (*********711) on your mobile money account at 2024-06-30 19:15:29. message from sender: . your new balance:4590 rwf. financial transaction id: 65226318623.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 170 rwf from jane smith (*********711) on your mobile money account at 2024-07-10 23:47:08. message from sender: . your new balance:840 rwf. financial transaction id: 12528494674.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 2000 rwf by data bundle mtn on your momo account was successfully completed at 2024-07-14 15:19:17. message from debit receiver: . your new balance:27570 rwf. fee was 0 rwf. financial transaction id: 14807754878. external transaction id: 17209629782498301.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 300 rwf from linda green (*********711) on your mobile money account at 2024-07-20 21:20:40. message from sender: . your new balance:3210 rwf. financial transaction id: 21296060708.",
+    "type": "received"
+  },
+  {
+    "body": "*162*txid:14977177408*s*your payment of 673000 rwf to onafriq mauritius with token  has been completed at 2024-07-26 15:16:04. fee was 8000 rwf. your new balance: 4950 rwf . message: - transaction has been processed successfully. *en#",
+    "type": "payment"
+  },
+  {
+    "body": "*162*txid:14977293553*s*your payment of 45000 rwf to onafriq mauritius with token  has been completed at 2024-07-26 15:24:04. fee was 1200 rwf. your new balance: 8750 rwf . message: - transaction has been processed successfully. *en#",
+    "type": "payment"
+  },
+  {
+    "body": "*162*txid:14977386817*s*your payment of 50000 rwf to onafriq mauritius with token  has been completed at 2024-07-26 15:30:04. fee was 1200 rwf. your new balance: 7550 rwf . message: - transaction has been processed successfully. *en#",
+    "type": "payment"
+  },
+  {
+    "body": "*162*txid:15183763430*s*your payment of 2000 rwf to onafriq mauritius with token  has been completed at 2024-08-09 11:44:02. fee was 120 rwf. your new balance: 1050 rwf . message: - transaction has been processed successfully. *en#",
+    "type": "payment"
+  },
+  {
+    "body": "*162*txid:15204526240*s*your payment of 90000 rwf to onafriq mauritius with token  has been completed at 2024-08-10 18:10:04. fee was 2000 rwf. your new balance: 9050 rwf . message: - transaction has been processed successfully. *en#",
+    "type": "payment"
+  },
+  {
+    "body": "you have received 4000 rwf from samuel carter (*********055) on your mobile money account at 2024-09-01 19:32:19. message from sender: . your new balance:13370 rwf. financial transaction id: 65203206628.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-09-06 16:37:52. message from debit receiver: . your new balance:890 rwf. fee was 0 rwf. financial transaction id: 15606505500. external transaction id: 17256333763041376.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 200000 rwf from samuel carter (*********726) on your mobile money account at 2024-09-06 19:06:17. message from sender: . your new balance:216090 rwf. financial transaction id: 67974931091.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 50 rwf from robert brown (*********711) on your mobile money account at 2024-09-06 21:11:07. message from sender: . your new balance:193040 rwf. financial transaction id: 14513684578.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 1300 rwf from robert brown (*********711) on your mobile money account at 2024-09-13 22:55:34. message from sender: . your new balance:6340 rwf. financial transaction id: 11967814854.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 5000 rwf from linda green (*********711) on your mobile money account at 2024-09-19 21:17:46. message from sender: . your new balance:42530 rwf. financial transaction id: 93881514225.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 15000 rwf from jane smith (*********711) on your mobile money account at 2024-09-22 15:45:32. message from sender: . your new balance:32850 rwf. financial transaction id: 35450739966.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 10000 rwf from jane smith (*********696) on your mobile money account at 2024-09-25 01:23:04. message from sender: . your new balance:24080 rwf. financial transaction id: 75401767322.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-09-28 13:16:02. message from debit receiver: . your new balance:11310 rwf. fee was 0 rwf. financial transaction id: 15930732191. external transaction id: 17275220792115073.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 93252 rwf from linda green (*********683) on your mobile money account at 2024-10-02 15:35:42. message from sender: . your new balance:109362 rwf. financial transaction id: 10730013424.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 82000 rwf from robert brown (*********202) on your mobile money account at 2024-10-02 23:10:50. message from sender: . your new balance:140612 rwf. financial transaction id: 22096990635.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-10-04 08:27:12. message from debit receiver: . your new balance:3512 rwf. fee was 0 rwf. financial transaction id: 16040688508. external transaction id: 17280230723010910.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 132443 rwf from linda green (*********973) on your mobile money account at 2024-10-10 16:50:02. message from sender: wakuma tekalign debela. your new balance:148205 rwf. financial transaction id: 60978680783.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-10-11 16:39:11. message from debit receiver: . your new balance:24655 rwf. fee was 0 rwf. financial transaction id: 16181431637. external transaction id: 17286575112418450.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 132996 rwf from jane smith (*********973) on your mobile money account at 2024-10-16 10:00:05. message from sender: wakuma tekalign debela. your new balance:133151 rwf. financial transaction id: 66464178798.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-10-16 10:48:32. message from debit receiver: . your new balance:128151 rwf. fee was 0 rwf. financial transaction id: 16269196928. external transaction id: 17290684883032395.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 20000 rwf from alex doe (*********721) on your mobile money account at 2024-10-18 23:00:18. message from sender: fund-transfer to  250795963036. your new balance:26250 rwf. financial transaction id: 29637659542.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 133072 rwf from linda green (*********973) on your mobile money account at 2024-10-20 18:56:20. message from sender: wakuma tekalign debela. your new balance:133072 rwf. financial transaction id: 50533019574.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 10000 rwf by data bundle mtn on your momo account was successfully completed at 2024-10-20 21:07:16. message from debit receiver: . your new balance:122472 rwf. fee was 0 rwf. financial transaction id: 16356106165. external transaction id: 17294511812484189.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 50000 rwf from jane smith (250795963036) on your mobile money account at 2024-10-23 09:59:01. message from sender: . your new balance:81022 rwf. financial transaction id: 80264064542.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 50000 rwf from robert brown (250795963036) on your mobile money account at 2024-10-23 16:43:03. message from sender: . your new balance:55672 rwf. financial transaction id: 27880925520.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 20000 rwf from robert brown (250795963036) on your mobile money account at 2024-10-25 00:33:00. message from sender: . your new balance:21382 rwf. financial transaction id: 10412500030.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 20000 rwf from alex doe (250795963036) on your mobile money account at 2024-10-25 05:48:00. message from sender: . your new balance:21032 rwf. financial transaction id: 81660358206.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 4000 rwf from robert brown (*********711) on your mobile money account at 2024-10-25 23:10:51. message from sender: . your new balance:22932 rwf. financial transaction id: 11060379377.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 50000 rwf from samuel carter (250795963036) on your mobile money account at 2024-10-26 21:52:01. message from sender: . your new balance:50932 rwf. financial transaction id: 93824792341.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 10000 rwf from robert brown (250795963036) on your mobile money account at 2024-11-05 21:55:02. message from sender: . your new balance:10212 rwf. financial transaction id: 74467206314.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 133855 rwf from samuel carter (*********683) on your mobile money account at 2024-11-06 12:54:32. message from sender: . your new balance:142667 rwf. financial transaction id: 26843508772.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-11-06 22:27:32. message from debit receiver: . your new balance:41167 rwf. fee was 0 rwf. financial transaction id: 16684572153. external transaction id: 17309248153046681.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 66305 rwf from robert brown (*********683) on your mobile money account at 2024-11-09 20:11:51. message from sender: . your new balance:68842 rwf. financial transaction id: 97375149913.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 27800 rwf from linda green (*********711) on your mobile money account at 2024-11-10 01:03:33. message from sender: . your new balance:78622 rwf. financial transaction id: 67973089801.",
+    "type": "received"
+  },
+  {
+    "body": "*143*txid:16803066185*s*your payment of 5000 rwf to bundles and packs with token  has failed at 2024-11-12 23:47:47. message: - -. *en#",
+    "type": "bundle"
+  },
+  {
+    "body": "*143*txid:16803076383*s*your payment of 5000 rwf to bundles and packs with token  has failed at 2024-11-12 23:49:39. message: - -. *en#",
+    "type": "bundle"
+  },
+  {
+    "body": "*143*r*y'ello, the transaction with amount 5000 rwf for data bundle mtn with message:  failed at 2024-11-12 23:58:00 .please contact mobilemoney helpline for assistance.thank you for using mtn mobilemoney.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-11-13 13:13:44. message from debit receiver: . your new balance:7022 rwf. fee was 0 rwf. financial transaction id: 16811450681. external transaction id: 17314963852425107.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 134160 rwf from robert brown (*********683) on your mobile money account at 2024-11-13 23:03:44. message from sender: . your new balance:136682 rwf. financial transaction id: 91027288469.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 201940 rwf from samuel carter (*********683) on your mobile money account at 2024-11-14 19:56:45. message from sender: . your new balance:209372 rwf. financial transaction id: 60464892197.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 10000 rwf by data bundle mtn on your momo account was successfully completed at 2024-11-16 13:14:55. message from debit receiver: . your new balance:10202 rwf. fee was 0 rwf. financial transaction id: 16870426837. external transaction id: 17317556402493740.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 134346 rwf from jane smith (*********683) on your mobile money account at 2024-11-17 13:12:05. message from sender: . your new balance:135748 rwf. financial transaction id: 35179537922.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 134438 rwf from samuel carter (*********683) on your mobile money account at 2024-11-18 17:39:07. message from sender: . your new balance:153736 rwf. financial transaction id: 81939407545.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 134901 rwf from robert brown (*********683) on your mobile money account at 2024-11-21 11:36:54. message from sender: . your new balance:138437 rwf. financial transaction id: 55787996640.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 134468 rwf from alex doe (*********683) on your mobile money account at 2024-11-21 20:55:54. message from sender: . your new balance:135435 rwf. financial transaction id: 71572076549.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 1200 rwf from alex doe (*********711) on your mobile money account at 2024-11-22 13:58:23. message from sender: . your new balance:10285 rwf. financial transaction id: 34697085121.",
+    "type": "received"
+  },
+  {
+    "body": "you abebe chala chebudie (*********036) have via agent: agent sophia (250788999999), withdrawn 50000 rwf from your mobile money account: 36521838 at 2024-11-23 13:23:44 and you can now collect your money in cash. your new balance: 2401 rwf. fee paid: 1100 rwf. message from agent: 1. financial transaction id: 17006777609.",
+    "type": "withdrawal"
+  },
+  {
+    "body": "you have received 134591 rwf from robert brown (*********683) on your mobile money account at 2024-11-23 13:40:59. message from sender: . your new balance:136992 rwf. financial transaction id: 52261254503.",
+    "type": "received"
+  },
+  {
+    "body": "you abebe chala chebudie (*********036) have via agent: agent john (250788999999), withdrawn 24000 rwf from your mobile money account: 36521838 at 2024-11-23 14:09:27 and you can now collect your money in cash. your new balance: 61892 rwf. fee paid: 600 rwf. message from agent: 1. financial transaction id: 17007580507.",
+    "type": "withdrawal"
+  },
+  {
+    "body": "you have received 10000 rwf from jane smith (*********223) on your mobile money account at 2024-11-27 08:18:01. message from sender: . your new balance:70052 rwf. financial transaction id: 38740551775.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 11000 rwf from robert brown (*********013) on your mobile money account at 2024-11-29 23:15:19. message from sender: . your new balance:19012 rwf. financial transaction id: 55628760506.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2024-11-30 12:48:40. message from debit receiver: . your new balance:12012 rwf. fee was 0 rwf. financial transaction id: 17146971568. external transaction id: 17329636532769188.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 271202 rwf from linda green (*********683) on your mobile money account at 2024-11-30 19:46:14. message from sender: . your new balance:320244 rwf. financial transaction id: 36071803053.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 10000 rwf by data bundle mtn on your momo account was successfully completed at 2024-12-02 18:12:28. message from debit receiver: . your new balance:103944 rwf. fee was 0 rwf. financial transaction id: 17194680435. external transaction id: 17331559272498010.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 135179 rwf from jane smith (*********683) on your mobile money account at 2024-12-13 19:00:25. message from sender: . your new balance:174871 rwf. financial transaction id: 64379934012.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 135140 rwf from linda green (*********683) on your mobile money account at 2024-12-14 23:18:23. message from sender: . your new balance:135291 rwf. financial transaction id: 96265284937.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 8000 rwf from samuel carter (*********613) on your mobile money account at 2024-12-15 16:02:32. message from sender: . your new balance:63991 rwf. financial transaction id: 56170688559.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 21800 rwf from samuel carter (*********711) on your mobile money account at 2024-12-15 16:04:07. message from sender: . your new balance:54791 rwf. financial transaction id: 25634019489.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 10000 rwf by data bundle mtn on your momo account was successfully completed at 2024-12-16 08:58:31. message from debit receiver: . your new balance:10191 rwf. fee was 0 rwf. financial transaction id: 17469774285. external transaction id: 17343322613083864.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 135121 rwf from linda green (*********683) on your mobile money account at 2024-12-17 08:18:54. message from sender: . your new balance:135692 rwf. financial transaction id: 31316222684.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 27000 rwf from alex doe (*********090) on your mobile money account at 2024-12-23 21:48:36. message from sender: . your new balance:42532 rwf. financial transaction id: 97521447595.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 135852 rwf from samuel carter (*********683) on your mobile money account at 2024-12-24 22:58:37. message from sender: . your new balance:154134 rwf. financial transaction id: 38286062599.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 10000 rwf from robert brown (*********711) on your mobile money account at 2024-12-26 00:01:03. message from sender: . your new balance:132834 rwf. financial transaction id: 19512741503.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 10000 rwf by data bundle mtn on your momo account was successfully completed at 2024-12-28 08:02:55. message from debit receiver: . your new balance:5864 rwf. fee was 0 rwf. financial transaction id: 17725876735. external transaction id: 17353657322483063.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 343285 rwf from linda green (*********683) on your mobile money account at 2024-12-30 13:21:50. message from sender: . your new balance:360379 rwf. financial transaction id: 60612987867.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 135983 rwf from jane smith (*********683) on your mobile money account at 2024-12-31 13:42:07. message from sender: . your new balance:164962 rwf. financial transaction id: 42280278088.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 500 rwf from robert brown (*********711) on your mobile money account at 2024-12-31 20:08:55. message from sender: . your new balance:97112 rwf. financial transaction id: 11336164483.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 343136 rwf from robert brown (*********683) on your mobile money account at 2025-01-02 14:00:02. message from sender: . your new balance:376348 rwf. financial transaction id: 66251081197.",
+    "type": "received"
+  },
+  {
+    "body": "*162*txid:17841214930*s*your payment of 322726 rwf to wasac with token 888931 has been completed at 2025-01-02 14:03:47. fee was 300 rwf. your new balance: 53322 rwf . message: - -. *en#",
+    "type": "payment"
+  },
+  {
+    "body": "you have received 136135 rwf from linda green (*********683) on your mobile money account at 2025-01-05 16:47:28. message from sender: . your new balance:143087 rwf. financial transaction id: 31288108568.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 74312 rwf from linda green (*********683) on your mobile money account at 2025-01-06 20:12:59. message from sender: . your new balance:103549 rwf. financial transaction id: 30614825696.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 136044 rwf from robert brown (*********683) on your mobile money account at 2025-01-09 19:59:47. message from sender: . your new balance:148243 rwf. financial transaction id: 29067172393.",
+    "type": "received"
+  },
+  {
+    "body": "you have received 8000 rwf from robert brown (*********711) on your mobile money account at 2025-01-10 21:40:23. message from sender: . your new balance:56393 rwf. financial transaction id: 81626212197.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 5000 rwf by data bundle mtn on your momo account was successfully completed at 2025-01-12 14:20:37. message from debit receiver: . your new balance:17873 rwf. fee was 0 rwf. financial transaction id: 18044804543. external transaction id: 17366843252778824.*en#",
+    "type": "bundle"
+  },
+  {
+    "body": "you have received 964177 rwf from jane smith (*********683) on your mobile money account at 2025-01-13 14:40:42. message from sender: . your new balance:986950 rwf. financial transaction id: 88289015616.",
+    "type": "received"
+  },
+  {
+    "body": "*164*s*y'ello,a transaction of 10000 rwf by data bundle mtn on your momo account was successfully completed at 2025-01-14 17:29:36. message from debit receiver: . your new balance:88000 rwf. fee was 0 rwf. financial transaction id: 18087757600. external transaction id: 17368685383021954.*en#",
+    "type": "bundle"
+  }
+]
