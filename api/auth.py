@@ -1,54 +1,25 @@
 import base64
 
 USERNAME = "admin"
-PASSWORD = "momo123"
+PASSWORD = "password"
 
 
 def check_auth(headers):
-    """
-    Validate Basic Authentication credentials.
-    """
+    auth = headers.get("Authorization")
 
-    auth_header = headers.get("Authorization")
+    if not auth:
+        return False
 
-    if not auth_header:
+    if not auth.startswith("Basic "):
         return False
 
     try:
-        auth_type, credentials = auth_header.split()
-
-        if auth_type != "Basic":
-            return False
-
-        decoded = base64.b64decode(
-            credentials
-        ).decode("utf-8")
+        encoded = auth.split(" ")[1]
+        decoded = base64.b64decode(encoded).decode("utf-8")
 
         username, password = decoded.split(":")
 
-        return (
-            username == USERNAME
-            and password == PASSWORD
-        )
+        return username == USERNAME and password == PASSWORD
 
-    except Exception:
+    except:
         return False
-
-
-def send_unauthorized(handler):
-    """
-    Send a 401 Unauthorized response.
-    """
-
-    handler.send_response(401)
-
-    handler.send_header(
-        "WWW-Authenticate",
-        'Basic realm="MoMo API"'
-    )
-
-    handler.end_headers()
-
-    handler.wfile.write(
-        b'{"error":"Unauthorized"}'
-    )
